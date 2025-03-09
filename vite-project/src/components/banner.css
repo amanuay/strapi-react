@@ -1,0 +1,35 @@
+.banner {
+  position: relative;
+  width: 100%;
+
+  .image-container {
+    width: 100%;
+    height: 50svh;
+    overflow: hidden;
+  }
+
+  .text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+
+    h1 {
+      font-size: 5rem;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.75rem;
+      width: 40ch;
+      text-align: center;
+    }
+  }
+}

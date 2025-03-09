@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cta_ctas",
+  "info": {
+    "displayName": "CTA",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

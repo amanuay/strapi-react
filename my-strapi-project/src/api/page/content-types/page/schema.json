@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner"
+    },
+    "events": {
+      "type": "component",
+      "repeatable": true,
+      "component": "event.event"
+    },
+    "event_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event-type.event-type"
+    }
+  }
+}

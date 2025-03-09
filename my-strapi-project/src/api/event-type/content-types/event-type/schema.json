@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_types",
+  "info": {
+    "singularName": "event-type",
+    "pluralName": "event-types",
+    "displayName": "Event Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

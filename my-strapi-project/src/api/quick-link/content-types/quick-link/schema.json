@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quick_links",
+  "info": {
+    "singularName": "quick-link",
+    "pluralName": "quick-links",
+    "displayName": "Quick Links"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

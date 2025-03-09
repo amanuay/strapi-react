@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_event_events",
+  "info": {
+    "displayName": "event",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "event_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::event-type.event-type"
+    }
+  }
+}

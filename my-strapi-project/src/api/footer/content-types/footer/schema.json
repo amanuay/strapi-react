@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "copyright": {
+      "type": "component",
+      "repeatable": false,
+      "component": "copyright.copyright-info"
+    },
+    "school_info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "school-info.school-info"
+    },
+    "designed_by": {
+      "type": "component",
+      "repeatable": false,
+      "component": "designed-by.designed-by"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.cta"
+    }
+  }
+}

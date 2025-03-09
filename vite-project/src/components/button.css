@@ -1,0 +1,30 @@
+button {
+  display: flex;
+  gap: 0.75rem;
+  background-color: white;
+  color: var(--primary-color);
+  padding: 0.75rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 0.25rem;
+  border: 1.4px solid var(--primary-color);
+  min-width: 9rem;
+  align-items: center;
+  justify-content: center;
+
+  .button-icon-container {
+    max-height: 1.5rem;
+    max-width: 1.5rem;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &.primary {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+  }
+}

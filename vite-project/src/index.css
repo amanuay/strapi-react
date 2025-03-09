@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary-color: #F54E39;
+  --secondary-color: #3481E8;
+  --dark-gray: #4E4E4F;
+  --light-gray: #F4F4F4;
+  --gray-border: #D0D0D0;
+}
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}

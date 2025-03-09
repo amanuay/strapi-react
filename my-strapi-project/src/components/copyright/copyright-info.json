@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_copyright_copyright_infos",
+  "info": {
+    "displayName": "copyright_info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

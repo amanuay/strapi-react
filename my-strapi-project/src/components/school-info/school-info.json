@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_school_info_school_infos",
+  "info": {
+    "displayName": "school_info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "motto": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "address": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "socials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::social-media.social-media"
+    }
+  }
+}

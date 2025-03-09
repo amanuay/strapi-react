@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_designed_by_designed_bies",
+  "info": {
+    "displayName": "designed_by"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
